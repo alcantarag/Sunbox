@@ -1,0 +1,80 @@
+body{
+	margin:0px;
+}
+#superior{
+	background-image: url("header_back.jpg");
+	background-repeat: repeat-x;
+	background-position: center center;
+	border:0px;
+	margin:0px;
+	width: 1920px;
+	height: 97px;
+}
+
+#hoja1{
+	color:#F9f7ff;
+	background-color: #999999;
+	font-size:20px;
+	position : absolute;
+	left:0px;
+	top:98px;
+	width: 1920px;
+	height: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	visibility = hidden;
+}
+#hoja2{
+	color:#F9B7A6;
+	background-color: #999999;
+	display: none;
+	font-size:20px;
+	position: absolute;
+	left:0px;
+	top:98px;
+	width: 1920px;
+	height: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	visibility = hidden;
+}
+#imagen{
+	height: 93px;
+	width: 321px;
+	margin:5px;
+}
+#main_logo{
+	float:left;
+	width: 350px;
+	display: inline-block;
+	margin-left: 0px;
+	margin-right:0px;
+}
+
+#hora_caja {
+    display: inline-block;
+    float: left;
+	height:91px;
+	margin-left: 5px;
+	margin-right:5px;
+}
+#hora_hoy {
+    font-family: "helvetica_ce_35_thinregular";
+    color: #FFF;
+    padding-top: 6px;
+	text-align: center;
+}
+#temperatura_caja {
+    float: right;
+    background-color: #999;
+	color: #fff;
+    height: 84px;
+	width:200px;
+}
+#condiciones_mar{
+    float: right;
+    background-color: #999;
+	color: #fff;
+    height: 84px;
+	width:200px;
+}
